@@ -8,12 +8,22 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/elliptic": "^6.4.18",
+    "@types/express": "^5.0.0",
+    "@types/lodash": "^4.17.10",
     "@types/node": "^22.7.4",
     "typescript": "^5.5.3",
     "vite": "^5.4.8"
   },
   "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/crypto-js": "^4.2.2",
+    "@types/ws": "^8.5.12",
+    "body-parser": "^1.20.3",
+    "crypto-js": "^4.2.0",
     "elliptic": "^6.5.7",
-    "naivecoin": "file:"
+    "express": "^4.21.1",
+    "naivecoin": "file:",
+    "ws": "^8.18.0"
   }
 }
